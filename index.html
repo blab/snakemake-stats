@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Snakemake run stats</title>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@2"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    p {
+      max-width: 35rem;
+    }
+    #timeline {
+      /* Vega's autoresizing doesn't account for Vega Embed's export menu in
+       * the top right corner, thus we need to account for it ourselves in the
+       * container width.
+       */
+      width: calc(100% - 40px);
+    }
+  </style>
+</head>
+<body>
+  <h1>Snakemake run stats</h1>
+
+  <p>Run <code>snakemake --stats stats.json …</code> and then drag-and-drop
+  <code>stats.json</code> onto this page.
+
+  <p>You can also load the stats JSON from a URL by providing the URL as a
+  query parameter <code>?stats=…</code>.
+
+  <p>Don’t have a file handy?  <a href="?stats=stats-example.json">Load up an
+  example</a>.
+
+  <h2>Timeline</h2>
+  <p>Start–finish timespan for each file produced by the Snakemake run.  Line
+  thickness is proportional to the number of CPUs/cores/threads used to
+  generate the file.
+
+  <p>Note that multiple <em>files</em> may be produced by a single
+  <em>job</em>, so the number of CPUs/cores/threads in use at any given time is
+  not accurately reflected by summing across files.
+
+  <p>The timeline is responsive, so make your browser bigger if you need more
+  resolution.
+
+  <div id="timeline"></div>
+
+  <script type="text/javascript">
+    async function run() {
+      const timeline = document.querySelector("#timeline");
+
+      const response = await fetch("timeline.vg.json");
+      const spec = await response.json();
+      console.log("Fetched spec", spec);
+
+      const result = await vegaEmbed(timeline, spec);
+      console.log("Rendered timeline");
+
+      // The Vega view instance
+      //   <https://vega.github.io/vega/docs/api/view/>
+      const view = result.view;
+
+      async function render(stats) {
+        view.data("stats", stats);
+        await view.runAsync();
+      }
+
+      const statsUrl = (new URL(document.location)).searchParams.get("stats");
+
+      if (statsUrl)
+        await render(await loadStats(statsUrl));
+
+      // Prevent default to allow drag
+      window.addEventListener("dragover", (event) => { event.preventDefault() });
+      window.addEventListener("drop", async (event) => {
+        console.log("Drop event", event);
+
+        const file = event.dataTransfer.files[0];
+        if (!file)
+          return;
+
+        console.log("File dropped", file);
+
+        if (file.type !== "application/json")
+          return;
+
+        event.preventDefault();
+
+        const dataUrl = "data:application/json," + encodeURIComponent(await file.text());
+        await render(await loadStats(dataUrl));
+      });
+    }
+
+    async function loadStats(url) {
+      console.log("Fetching stats", url);
+
+      const response = await fetch(url);
+      const stats = await response.json();
+      console.log("Fetched stats", stats);
+
+      const parsed = parseStats(stats);
+      console.log("Parsed stats", parsed);
+
+      return parsed;
+    }
+
+    function parseStats(stats) {
+      function parseTime(t) {
+        /* Snakemake's --stats files use "Thu Apr  3 23:54:20 2020".
+         * The equivalent strptime(3) notation is "%a %b %d %H:%M:%S %Y".
+         */
+        return moment(t, "ddd MMM D HH:mm:ss YYYY").toISOString();
+      }
+
+      function cmp(a, b) {
+        return (
+          a.start  < b.start  ? -1 :
+          a.start  > b.start  ?  1 :
+          a.finish < b.finish ? -1 :
+          a.finish > b.finish ?  1 :
+                                 0 )
+      }
+
+      return (
+        Object.entries(stats.files)
+          .map(([key, value]) => ({
+            "file": key,
+            "start": parseTime(value["start-time"]),
+            "finish": parseTime(value["stop-time"]),
+            "duration": value.duration,
+            "resources": value.resources,
+          }))
+          .sort(cmp))
+    }
+
+    run().catch(console.error);
+  </script>
+</body>
+</html>

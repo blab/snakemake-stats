@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "datasets": {"stats":[]},
+  "data": {"name":"stats"},
+  "height": {"step": 10},
+  "width": "container",
+  "mark": {
+    "type": "rule",
+    "color": "red",
+    "tooltip": true
+  },
+  "encoding": {
+    "y": {
+      "field": "file",
+      "type": "ordinal",
+      "sort": "x",
+      "axis": {
+        "orient": "right",
+        "labelLimit": 400,
+        "labelAlign": "left"
+      }
+    },
+    "x": {
+      "field": "start",
+      "type": "temporal",
+      "axis": {
+        "orient": "top",
+        "format": "%H:%M",
+        "labelSeparation": 10
+      }
+    },
+    "x2": {
+      "field": "finish",
+      "axis": {"format": "%H:%M"}
+    },
+    "size": {
+      "field": "resources._cores",
+      "type": "ordinal"
+    }
+  },
+  "config": {
+    "range": {
+      "minStrokeWidth": 2
+    }
+  }
+}

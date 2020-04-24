@@ -1,0 +1,3534 @@
+{
+    "total_runtime": 7919.343927383423,
+    "rules": {
+        "download": {
+            "mean-runtime": 3.251896381378174,
+            "min-runtime": 3.251896381378174,
+            "max-runtime": 3.251896381378174
+        },
+        "adjust_metadata_regions": {
+            "mean-runtime": 0.6871503421238491,
+            "min-runtime": 0.05468320846557617,
+            "max-runtime": 0.8654427528381348
+        },
+        "filter": {
+            "mean-runtime": 11.154478311538696,
+            "min-runtime": 11.154478311538696,
+            "max-runtime": 11.154478311538696
+        },
+        "colors": {
+            "mean-runtime": 1.3963190146854945,
+            "min-runtime": 1.2291240692138672,
+            "max-runtime": 1.505815029144287
+        },
+        "recency": {
+            "mean-runtime": 2.745542424065726,
+            "min-runtime": 2.6628828048706055,
+            "max-runtime": 2.8592138290405273
+        },
+        "partition_sequences": {
+            "mean-runtime": 5.22583794593811,
+            "min-runtime": 5.22583794593811,
+            "max-runtime": 5.22583794593811
+        },
+        "partitions_intermediate": {
+            "mean-runtime": 0.01369401570912954,
+            "min-runtime": 0.007871150970458984,
+            "max-runtime": 0.0216064453125
+        },
+        "align": {
+            "mean-runtime": 36.442710438290156,
+            "min-runtime": 7.530765056610107,
+            "max-runtime": 47.07149529457092
+        },
+        "aggregate_alignments": {
+            "mean-runtime": 0.18727803230285645,
+            "min-runtime": 0.18727803230285645,
+            "max-runtime": 0.18727803230285645
+        },
+        "mask": {
+            "mean-runtime": 15.06125783920288,
+            "min-runtime": 15.06125783920288,
+            "max-runtime": 15.06125783920288
+        },
+        "subsample_focus": {
+            "mean-runtime": 5.495097977774484,
+            "min-runtime": 5.046970844268799,
+            "max-runtime": 6.133167505264282
+        },
+        "make_priorities": {
+            "mean-runtime": 71.10010736329215,
+            "min-runtime": 0.007897615432739258,
+            "max-runtime": 141.53178095817566
+        },
+        "subsample_context": {
+            "mean-runtime": 4.759315763201032,
+            "min-runtime": 0.007599830627441406,
+            "max-runtime": 5.657585382461548
+        },
+        "subsample_regions": {
+            "mean-runtime": 1.8473999159676688,
+            "min-runtime": 1.4062914848327637,
+            "max-runtime": 2.521646738052368
+        },
+        "tree": {
+            "mean-runtime": 960.1773253508976,
+            "min-runtime": 99.24382543563843,
+            "max-runtime": 2338.7959570884705
+        },
+        "refine": {
+            "mean-runtime": 3029.5212817192078,
+            "min-runtime": 1773.5052607059479,
+            "max-runtime": 4855.756715774536
+        },
+        "traits": {
+            "mean-runtime": 35.06407649176462,
+            "min-runtime": 17.129257917404175,
+            "max-runtime": 78.5321900844574
+        },
+        "tip_frequencies": {
+            "mean-runtime": 3.33246534211295,
+            "min-runtime": 2.9725706577301025,
+            "max-runtime": 3.808177947998047
+        },
+        "ancestral": {
+            "mean-runtime": 391.32680773735046,
+            "min-runtime": 354.6869351863861,
+            "max-runtime": 455.41040301322937
+        },
+        "translate": {
+            "mean-runtime": 33.05949469975063,
+            "min-runtime": 19.160056352615356,
+            "max-runtime": 55.291424036026
+        },
+        "clades": {
+            "mean-runtime": 1.920593227658953,
+            "min-runtime": 1.4286484718322754,
+            "max-runtime": 2.6459338665008545
+        },
+        "export_gisaid": {
+            "mean-runtime": 6.348950999123709,
+            "min-runtime": 4.555347442626953,
+            "max-runtime": 9.361529350280762
+        },
+        "export": {
+            "mean-runtime": 6.328998156956264,
+            "min-runtime": 4.579202651977539,
+            "max-runtime": 9.334604024887085
+        },
+        "export_zh": {
+            "mean-runtime": 6.392030647822788,
+            "min-runtime": 4.6961681842803955,
+            "max-runtime": 9.434002161026001
+        },
+        "incorporate_travel_history_gisaid": {
+            "mean-runtime": 1.4318464142935616,
+            "min-runtime": 0.7819907665252686,
+            "max-runtime": 2.7916903495788574
+        },
+        "incorporate_travel_history": {
+            "mean-runtime": 1.4247239998408727,
+            "min-runtime": 0.779071569442749,
+            "max-runtime": 2.7736308574676514
+        },
+        "incorporate_travel_history_zh": {
+            "mean-runtime": 1.4237337793622697,
+            "min-runtime": 0.7812767028808594,
+            "max-runtime": 2.792424201965332
+        },
+        "fix_colorings_gisaid": {
+            "mean-runtime": 1.5147218363625663,
+            "min-runtime": 0.8119196891784668,
+            "max-runtime": 3.0012786388397217
+        },
+        "fix_colorings": {
+            "mean-runtime": 1.5196716444832938,
+            "min-runtime": 0.807513952255249,
+            "max-runtime": 3.025627851486206
+        },
+        "fix_colorings_zh": {
+            "mean-runtime": 1.5119214057922363,
+            "min-runtime": 0.818681001663208,
+            "max-runtime": 3.0295591354370117
+        },
+        "dated_json": {
+            "mean-runtime": 0.01732219968523298,
+            "min-runtime": 0.012258768081665039,
+            "max-runtime": 0.026800155639648438
+        },
+        "all_regions": {
+            "mean-runtime": 0.0008015632629394531,
+            "min-runtime": 0.0008015632629394531,
+            "max-runtime": 0.0008015632629394531
+        }
+    },
+    "files": {
+        "data/sequences.fasta": {
+            "start-time": "Thu Apr 23 23:54:17 2020",
+            "stop-time": "Thu Apr 23 23:54:20 2020",
+            "duration": 3.251896381378174,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "data/metadata.tsv": {
+            "start-time": "Thu Apr 23 23:54:17 2020",
+            "stop-time": "Thu Apr 23 23:54:20 2020",
+            "duration": 3.251896381378174,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/metadata_adjusted_europe.tsv": {
+            "start-time": "Thu Apr 23 23:54:20 2020",
+            "stop-time": "Thu Apr 23 23:54:21 2020",
+            "duration": 0.7758772373199463,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/metadata_adjusted_oceania.tsv": {
+            "start-time": "Thu Apr 23 23:54:20 2020",
+            "stop-time": "Thu Apr 23 23:54:21 2020",
+            "duration": 0.804034948348999,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/filtered.fasta": {
+            "start-time": "Thu Apr 23 23:54:20 2020",
+            "stop-time": "Thu Apr 23 23:54:31 2020",
+            "duration": 11.154478311538696,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/metadata_adjusted_global.tsv": {
+            "start-time": "Thu Apr 23 23:54:20 2020",
+            "stop-time": "Thu Apr 23 23:54:20 2020",
+            "duration": 0.05468320846557617,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/metadata_adjusted_asia.tsv": {
+            "start-time": "Thu Apr 23 23:54:20 2020",
+            "stop-time": "Thu Apr 23 23:54:21 2020",
+            "duration": 0.8654427528381348,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/metadata_adjusted_north-america.tsv": {
+            "start-time": "Thu Apr 23 23:54:20 2020",
+            "stop-time": "Thu Apr 23 23:54:21 2020",
+            "duration": 0.7585735321044922,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/metadata_adjusted_south-america.tsv": {
+            "start-time": "Thu Apr 23 23:54:20 2020",
+            "stop-time": "Thu Apr 23 23:54:21 2020",
+            "duration": 0.7742633819580078,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/metadata_adjusted_africa.tsv": {
+            "start-time": "Thu Apr 23 23:54:20 2020",
+            "stop-time": "Thu Apr 23 23:54:21 2020",
+            "duration": 0.7771773338317871,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "config/colors_global.tsv": {
+            "start-time": "Thu Apr 23 23:54:20 2020",
+            "stop-time": "Thu Apr 23 23:54:21 2020",
+            "duration": 1.3088700771331787,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/recency_global.json": {
+            "start-time": "Thu Apr 23 23:54:20 2020",
+            "stop-time": "Thu Apr 23 23:54:23 2020",
+            "duration": 2.8592138290405273,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "config/colors_europe.tsv": {
+            "start-time": "Thu Apr 23 23:54:22 2020",
+            "stop-time": "Thu Apr 23 23:54:23 2020",
+            "duration": 1.4274473190307617,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/recency_europe.json": {
+            "start-time": "Thu Apr 23 23:54:22 2020",
+            "stop-time": "Thu Apr 23 23:54:24 2020",
+            "duration": 2.680116653442383,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/recency_south-america.json": {
+            "start-time": "Thu Apr 23 23:54:22 2020",
+            "stop-time": "Thu Apr 23 23:54:24 2020",
+            "duration": 2.7528555393218994,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/recency_africa.json": {
+            "start-time": "Thu Apr 23 23:54:22 2020",
+            "stop-time": "Thu Apr 23 23:54:24 2020",
+            "duration": 2.6628828048706055,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "config/colors_asia.tsv": {
+            "start-time": "Thu Apr 23 23:54:22 2020",
+            "stop-time": "Thu Apr 23 23:54:23 2020",
+            "duration": 1.505815029144287,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "config/colors_south-america.tsv": {
+            "start-time": "Thu Apr 23 23:54:22 2020",
+            "stop-time": "Thu Apr 23 23:54:23 2020",
+            "duration": 1.4205737113952637,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "config/colors_africa.tsv": {
+            "start-time": "Thu Apr 23 23:54:22 2020",
+            "stop-time": "Thu Apr 23 23:54:23 2020",
+            "duration": 1.4824233055114746,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/recency_oceania.json": {
+            "start-time": "Thu Apr 23 23:54:22 2020",
+            "stop-time": "Thu Apr 23 23:54:25 2020",
+            "duration": 2.7713708877563477,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/recency_north-america.json": {
+            "start-time": "Thu Apr 23 23:54:22 2020",
+            "stop-time": "Thu Apr 23 23:54:25 2020",
+            "duration": 2.748763084411621,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/recency_asia.json": {
+            "start-time": "Thu Apr 23 23:54:22 2020",
+            "stop-time": "Thu Apr 23 23:54:25 2020",
+            "duration": 2.743594169616699,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "config/colors_oceania.tsv": {
+            "start-time": "Thu Apr 23 23:54:23 2020",
+            "stop-time": "Thu Apr 23 23:54:24 2020",
+            "duration": 1.2291240692138672,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "config/colors_north-america.tsv": {
+            "start-time": "Thu Apr 23 23:54:23 2020",
+            "stop-time": "Thu Apr 23 23:54:24 2020",
+            "duration": 1.399979591369629,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/pre/": {
+            "start-time": "Thu Apr 23 23:54:31 2020",
+            "stop-time": "Thu Apr 23 23:54:36 2020",
+            "duration": 5.22583794593811,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/72.fasta": {
+            "start-time": "Thu Apr 23 23:54:36 2020",
+            "stop-time": "Thu Apr 23 23:54:36 2020",
+            "duration": 0.01027059555053711,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/45.fasta": {
+            "start-time": "Thu Apr 23 23:54:36 2020",
+            "stop-time": "Thu Apr 23 23:54:37 2020",
+            "duration": 0.01285409927368164,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/21.fasta": {
+            "start-time": "Thu Apr 23 23:54:36 2020",
+            "stop-time": "Thu Apr 23 23:54:37 2020",
+            "duration": 0.017102479934692383,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/46.fasta": {
+            "start-time": "Thu Apr 23 23:54:37 2020",
+            "stop-time": "Thu Apr 23 23:54:37 2020",
+            "duration": 0.014836788177490234,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/5.fasta": {
+            "start-time": "Thu Apr 23 23:54:37 2020",
+            "stop-time": "Thu Apr 23 23:54:37 2020",
+            "duration": 0.01784229278564453,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/32.fasta": {
+            "start-time": "Thu Apr 23 23:54:37 2020",
+            "stop-time": "Thu Apr 23 23:54:37 2020",
+            "duration": 0.01921844482421875,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/3.fasta": {
+            "start-time": "Thu Apr 23 23:54:37 2020",
+            "stop-time": "Thu Apr 23 23:54:37 2020",
+            "duration": 0.020849943161010742,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/14.fasta": {
+            "start-time": "Thu Apr 23 23:54:37 2020",
+            "stop-time": "Thu Apr 23 23:54:37 2020",
+            "duration": 0.0216064453125,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/69.fasta": {
+            "start-time": "Thu Apr 23 23:54:37 2020",
+            "stop-time": "Thu Apr 23 23:54:37 2020",
+            "duration": 0.016130924224853516,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/18.fasta": {
+            "start-time": "Thu Apr 23 23:54:37 2020",
+            "stop-time": "Thu Apr 23 23:54:37 2020",
+            "duration": 0.01171422004699707,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/20.fasta": {
+            "start-time": "Thu Apr 23 23:54:37 2020",
+            "stop-time": "Thu Apr 23 23:54:38 2020",
+            "duration": 0.018080711364746094,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/53.fasta": {
+            "start-time": "Thu Apr 23 23:54:37 2020",
+            "stop-time": "Thu Apr 23 23:54:38 2020",
+            "duration": 0.0197141170501709,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/22.fasta": {
+            "start-time": "Thu Apr 23 23:54:38 2020",
+            "stop-time": "Thu Apr 23 23:54:38 2020",
+            "duration": 0.018256664276123047,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/35.fasta": {
+            "start-time": "Thu Apr 23 23:54:38 2020",
+            "stop-time": "Thu Apr 23 23:54:38 2020",
+            "duration": 0.016549348831176758,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/33.fasta": {
+            "start-time": "Thu Apr 23 23:54:38 2020",
+            "stop-time": "Thu Apr 23 23:54:38 2020",
+            "duration": 0.016566991806030273,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/13.fasta": {
+            "start-time": "Thu Apr 23 23:54:38 2020",
+            "stop-time": "Thu Apr 23 23:54:38 2020",
+            "duration": 0.019134044647216797,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/34.fasta": {
+            "start-time": "Thu Apr 23 23:54:38 2020",
+            "stop-time": "Thu Apr 23 23:54:38 2020",
+            "duration": 0.018105030059814453,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/71.fasta": {
+            "start-time": "Thu Apr 23 23:54:38 2020",
+            "stop-time": "Thu Apr 23 23:54:38 2020",
+            "duration": 0.01839613914489746,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/8.fasta": {
+            "start-time": "Thu Apr 23 23:54:38 2020",
+            "stop-time": "Thu Apr 23 23:54:38 2020",
+            "duration": 0.015594482421875,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/23.fasta": {
+            "start-time": "Thu Apr 23 23:54:38 2020",
+            "stop-time": "Thu Apr 23 23:54:38 2020",
+            "duration": 0.010700702667236328,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/6.fasta": {
+            "start-time": "Thu Apr 23 23:54:38 2020",
+            "stop-time": "Thu Apr 23 23:54:39 2020",
+            "duration": 0.010616064071655273,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/63.fasta": {
+            "start-time": "Thu Apr 23 23:54:39 2020",
+            "stop-time": "Thu Apr 23 23:54:39 2020",
+            "duration": 0.012957572937011719,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/19.fasta": {
+            "start-time": "Thu Apr 23 23:54:39 2020",
+            "stop-time": "Thu Apr 23 23:54:39 2020",
+            "duration": 0.009632349014282227,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/30.fasta": {
+            "start-time": "Thu Apr 23 23:54:39 2020",
+            "stop-time": "Thu Apr 23 23:54:39 2020",
+            "duration": 0.012449502944946289,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/37.fasta": {
+            "start-time": "Thu Apr 23 23:54:39 2020",
+            "stop-time": "Thu Apr 23 23:54:39 2020",
+            "duration": 0.012778282165527344,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/38.fasta": {
+            "start-time": "Thu Apr 23 23:54:39 2020",
+            "stop-time": "Thu Apr 23 23:54:39 2020",
+            "duration": 0.012517690658569336,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/50.fasta": {
+            "start-time": "Thu Apr 23 23:54:39 2020",
+            "stop-time": "Thu Apr 23 23:54:39 2020",
+            "duration": 0.0110015869140625,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/12.fasta": {
+            "start-time": "Thu Apr 23 23:54:39 2020",
+            "stop-time": "Thu Apr 23 23:54:39 2020",
+            "duration": 0.010496377944946289,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/60.fasta": {
+            "start-time": "Thu Apr 23 23:54:39 2020",
+            "stop-time": "Thu Apr 23 23:54:39 2020",
+            "duration": 0.008101224899291992,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/51.fasta": {
+            "start-time": "Thu Apr 23 23:54:39 2020",
+            "stop-time": "Thu Apr 23 23:54:39 2020",
+            "duration": 0.007996082305908203,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/36.fasta": {
+            "start-time": "Thu Apr 23 23:54:40 2020",
+            "stop-time": "Thu Apr 23 23:54:40 2020",
+            "duration": 0.011940956115722656,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/70.fasta": {
+            "start-time": "Thu Apr 23 23:54:40 2020",
+            "stop-time": "Thu Apr 23 23:54:40 2020",
+            "duration": 0.013081550598144531,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/27.fasta": {
+            "start-time": "Thu Apr 23 23:54:40 2020",
+            "stop-time": "Thu Apr 23 23:54:40 2020",
+            "duration": 0.014680624008178711,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/55.fasta": {
+            "start-time": "Thu Apr 23 23:54:40 2020",
+            "stop-time": "Thu Apr 23 23:54:40 2020",
+            "duration": 0.01423025131225586,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/26.fasta": {
+            "start-time": "Thu Apr 23 23:54:40 2020",
+            "stop-time": "Thu Apr 23 23:54:40 2020",
+            "duration": 0.013689041137695312,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/52.fasta": {
+            "start-time": "Thu Apr 23 23:54:40 2020",
+            "stop-time": "Thu Apr 23 23:54:40 2020",
+            "duration": 0.01361227035522461,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/24.fasta": {
+            "start-time": "Thu Apr 23 23:54:40 2020",
+            "stop-time": "Thu Apr 23 23:54:40 2020",
+            "duration": 0.016849517822265625,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/31.fasta": {
+            "start-time": "Thu Apr 23 23:54:40 2020",
+            "stop-time": "Thu Apr 23 23:54:40 2020",
+            "duration": 0.019418716430664062,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/28.fasta": {
+            "start-time": "Thu Apr 23 23:54:40 2020",
+            "stop-time": "Thu Apr 23 23:54:40 2020",
+            "duration": 0.013832807540893555,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/4.fasta": {
+            "start-time": "Thu Apr 23 23:54:40 2020",
+            "stop-time": "Thu Apr 23 23:54:40 2020",
+            "duration": 0.009073257446289062,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/7.fasta": {
+            "start-time": "Thu Apr 23 23:54:41 2020",
+            "stop-time": "Thu Apr 23 23:54:41 2020",
+            "duration": 0.011728048324584961,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/17.fasta": {
+            "start-time": "Thu Apr 23 23:54:41 2020",
+            "stop-time": "Thu Apr 23 23:54:41 2020",
+            "duration": 0.014457941055297852,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/15.fasta": {
+            "start-time": "Thu Apr 23 23:54:41 2020",
+            "stop-time": "Thu Apr 23 23:54:41 2020",
+            "duration": 0.013977289199829102,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/16.fasta": {
+            "start-time": "Thu Apr 23 23:54:41 2020",
+            "stop-time": "Thu Apr 23 23:54:41 2020",
+            "duration": 0.012616634368896484,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/29.fasta": {
+            "start-time": "Thu Apr 23 23:54:41 2020",
+            "stop-time": "Thu Apr 23 23:54:41 2020",
+            "duration": 0.012119293212890625,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/2.fasta": {
+            "start-time": "Thu Apr 23 23:54:41 2020",
+            "stop-time": "Thu Apr 23 23:54:41 2020",
+            "duration": 0.012879610061645508,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/25.fasta": {
+            "start-time": "Thu Apr 23 23:54:41 2020",
+            "stop-time": "Thu Apr 23 23:54:41 2020",
+            "duration": 0.016749858856201172,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/56.fasta": {
+            "start-time": "Thu Apr 23 23:54:41 2020",
+            "stop-time": "Thu Apr 23 23:54:41 2020",
+            "duration": 0.011486530303955078,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/6.fasta": {
+            "start-time": "Thu Apr 23 23:54:41 2020",
+            "stop-time": "Thu Apr 23 23:55:21 2020",
+            "duration": 40.338762521743774,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/35.fasta": {
+            "start-time": "Thu Apr 23 23:54:41 2020",
+            "stop-time": "Thu Apr 23 23:55:21 2020",
+            "duration": 40.44186735153198,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/21.fasta": {
+            "start-time": "Thu Apr 23 23:54:42 2020",
+            "stop-time": "Thu Apr 23 23:55:20 2020",
+            "duration": 38.701791286468506,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/16.fasta": {
+            "start-time": "Thu Apr 23 23:54:42 2020",
+            "stop-time": "Thu Apr 23 23:55:23 2020",
+            "duration": 41.47075271606445,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/12.fasta": {
+            "start-time": "Thu Apr 23 23:54:42 2020",
+            "stop-time": "Thu Apr 23 23:55:19 2020",
+            "duration": 37.246190309524536,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/23.fasta": {
+            "start-time": "Thu Apr 23 23:54:42 2020",
+            "stop-time": "Thu Apr 23 23:55:25 2020",
+            "duration": 43.160629749298096,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/4.fasta": {
+            "start-time": "Thu Apr 23 23:54:42 2020",
+            "stop-time": "Thu Apr 23 23:55:20 2020",
+            "duration": 38.87808084487915,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/27.fasta": {
+            "start-time": "Thu Apr 23 23:54:42 2020",
+            "stop-time": "Thu Apr 23 23:55:12 2020",
+            "duration": 30.39142417907715,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/19.fasta": {
+            "start-time": "Thu Apr 23 23:54:42 2020",
+            "stop-time": "Thu Apr 23 23:55:21 2020",
+            "duration": 39.61893963813782,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/46.fasta": {
+            "start-time": "Thu Apr 23 23:54:42 2020",
+            "stop-time": "Thu Apr 23 23:55:12 2020",
+            "duration": 30.60607886314392,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/5.fasta": {
+            "start-time": "Thu Apr 23 23:54:42 2020",
+            "stop-time": "Thu Apr 23 23:55:21 2020",
+            "duration": 39.24215292930603,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/34.fasta": {
+            "start-time": "Thu Apr 23 23:54:42 2020",
+            "stop-time": "Thu Apr 23 23:55:21 2020",
+            "duration": 39.02437448501587,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/17.fasta": {
+            "start-time": "Thu Apr 23 23:54:43 2020",
+            "stop-time": "Thu Apr 23 23:55:30 2020",
+            "duration": 47.07149529457092,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/15.fasta": {
+            "start-time": "Thu Apr 23 23:54:43 2020",
+            "stop-time": "Thu Apr 23 23:55:26 2020",
+            "duration": 43.500157833099365,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/26.fasta": {
+            "start-time": "Thu Apr 23 23:54:43 2020",
+            "stop-time": "Thu Apr 23 23:55:11 2020",
+            "duration": 28.975403308868408,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/20.fasta": {
+            "start-time": "Thu Apr 23 23:54:43 2020",
+            "stop-time": "Thu Apr 23 23:55:16 2020",
+            "duration": 33.673303842544556,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/22.fasta": {
+            "start-time": "Thu Apr 23 23:54:43 2020",
+            "stop-time": "Thu Apr 23 23:55:22 2020",
+            "duration": 39.56148886680603,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/13.fasta": {
+            "start-time": "Thu Apr 23 23:54:43 2020",
+            "stop-time": "Thu Apr 23 23:55:26 2020",
+            "duration": 43.91013526916504,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/33.fasta": {
+            "start-time": "Thu Apr 23 23:54:43 2020",
+            "stop-time": "Thu Apr 23 23:55:21 2020",
+            "duration": 38.805493116378784,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/14.fasta": {
+            "start-time": "Thu Apr 23 23:54:43 2020",
+            "stop-time": "Thu Apr 23 23:55:20 2020",
+            "duration": 37.88104772567749,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/18.fasta": {
+            "start-time": "Thu Apr 23 23:54:43 2020",
+            "stop-time": "Thu Apr 23 23:55:29 2020",
+            "duration": 45.99724316596985,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/55.fasta": {
+            "start-time": "Thu Apr 23 23:54:43 2020",
+            "stop-time": "Thu Apr 23 23:55:21 2020",
+            "duration": 38.04108667373657,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/24.fasta": {
+            "start-time": "Thu Apr 23 23:54:44 2020",
+            "stop-time": "Thu Apr 23 23:55:25 2020",
+            "duration": 41.383800983428955,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/25.fasta": {
+            "start-time": "Thu Apr 23 23:54:44 2020",
+            "stop-time": "Thu Apr 23 23:55:15 2020",
+            "duration": 31.77383017539978,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/69.fasta": {
+            "start-time": "Thu Apr 23 23:55:12 2020",
+            "stop-time": "Thu Apr 23 23:55:57 2020",
+            "duration": 45.70606064796448,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/32.fasta": {
+            "start-time": "Thu Apr 23 23:55:12 2020",
+            "stop-time": "Thu Apr 23 23:55:50 2020",
+            "duration": 37.715047121047974,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/60.fasta": {
+            "start-time": "Thu Apr 23 23:55:12 2020",
+            "stop-time": "Thu Apr 23 23:55:49 2020",
+            "duration": 37.206252574920654,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/71.fasta": {
+            "start-time": "Thu Apr 23 23:55:15 2020",
+            "stop-time": "Thu Apr 23 23:55:55 2020",
+            "duration": 39.51473927497864,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/31.fasta": {
+            "start-time": "Thu Apr 23 23:55:16 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 43.53218913078308,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/72.fasta": {
+            "start-time": "Thu Apr 23 23:55:19 2020",
+            "stop-time": "Thu Apr 23 23:55:58 2020",
+            "duration": 39.44948983192444,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/3.fasta": {
+            "start-time": "Thu Apr 23 23:55:20 2020",
+            "stop-time": "Thu Apr 23 23:55:51 2020",
+            "duration": 30.54284119606018,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/2.fasta": {
+            "start-time": "Thu Apr 23 23:55:20 2020",
+            "stop-time": "Thu Apr 23 23:55:57 2020",
+            "duration": 36.58824801445007,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/70.fasta": {
+            "start-time": "Thu Apr 23 23:55:20 2020",
+            "stop-time": "Thu Apr 23 23:56:01 2020",
+            "duration": 40.524680852890015,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/50.fasta": {
+            "start-time": "Thu Apr 23 23:55:21 2020",
+            "stop-time": "Thu Apr 23 23:55:59 2020",
+            "duration": 37.98909592628479,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/30.fasta": {
+            "start-time": "Thu Apr 23 23:55:21 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 39.860841512680054,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/8.fasta": {
+            "start-time": "Thu Apr 23 23:55:21 2020",
+            "stop-time": "Thu Apr 23 23:55:52 2020",
+            "duration": 30.91347646713257,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/37.fasta": {
+            "start-time": "Thu Apr 23 23:55:21 2020",
+            "stop-time": "Thu Apr 23 23:55:55 2020",
+            "duration": 33.742913246154785,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/53.fasta": {
+            "start-time": "Thu Apr 23 23:55:21 2020",
+            "stop-time": "Thu Apr 23 23:56:01 2020",
+            "duration": 39.69041109085083,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/52.fasta": {
+            "start-time": "Thu Apr 23 23:55:21 2020",
+            "stop-time": "Thu Apr 23 23:56:05 2020",
+            "duration": 43.41419744491577,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/45.fasta": {
+            "start-time": "Thu Apr 23 23:55:21 2020",
+            "stop-time": "Thu Apr 23 23:55:50 2020",
+            "duration": 28.746078491210938,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/51.fasta": {
+            "start-time": "Thu Apr 23 23:55:22 2020",
+            "stop-time": "Thu Apr 23 23:56:01 2020",
+            "duration": 38.59194779396057,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/28.fasta": {
+            "start-time": "Thu Apr 23 23:55:23 2020",
+            "stop-time": "Thu Apr 23 23:56:01 2020",
+            "duration": 38.38622784614563,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/36.fasta": {
+            "start-time": "Thu Apr 23 23:55:25 2020",
+            "stop-time": "Thu Apr 23 23:56:07 2020",
+            "duration": 41.88062834739685,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/56.fasta": {
+            "start-time": "Thu Apr 23 23:55:25 2020",
+            "stop-time": "Thu Apr 23 23:56:06 2020",
+            "duration": 41.040801763534546,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/29.fasta": {
+            "start-time": "Thu Apr 23 23:55:26 2020",
+            "stop-time": "Thu Apr 23 23:56:04 2020",
+            "duration": 37.840415477752686,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/63.fasta": {
+            "start-time": "Thu Apr 23 23:55:26 2020",
+            "stop-time": "Thu Apr 23 23:56:08 2020",
+            "duration": 42.010040283203125,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/7.fasta": {
+            "start-time": "Thu Apr 23 23:55:29 2020",
+            "stop-time": "Thu Apr 23 23:55:56 2020",
+            "duration": 27.11586332321167,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/38.fasta": {
+            "start-time": "Thu Apr 23 23:55:30 2020",
+            "stop-time": "Thu Apr 23 23:56:08 2020",
+            "duration": 38.28766083717346,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/58.fasta": {
+            "start-time": "Thu Apr 23 23:55:49 2020",
+            "stop-time": "Thu Apr 23 23:55:49 2020",
+            "duration": 0.011712789535522461,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/59.fasta": {
+            "start-time": "Thu Apr 23 23:55:49 2020",
+            "stop-time": "Thu Apr 23 23:55:49 2020",
+            "duration": 0.012891054153442383,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/9.fasta": {
+            "start-time": "Thu Apr 23 23:55:49 2020",
+            "stop-time": "Thu Apr 23 23:55:49 2020",
+            "duration": 0.013896942138671875,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/64.fasta": {
+            "start-time": "Thu Apr 23 23:55:49 2020",
+            "stop-time": "Thu Apr 23 23:55:49 2020",
+            "duration": 0.015083551406860352,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/43.fasta": {
+            "start-time": "Thu Apr 23 23:55:49 2020",
+            "stop-time": "Thu Apr 23 23:55:49 2020",
+            "duration": 0.014472246170043945,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/10.fasta": {
+            "start-time": "Thu Apr 23 23:55:49 2020",
+            "stop-time": "Thu Apr 23 23:55:49 2020",
+            "duration": 0.014558553695678711,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/49.fasta": {
+            "start-time": "Thu Apr 23 23:55:49 2020",
+            "stop-time": "Thu Apr 23 23:55:49 2020",
+            "duration": 0.011279821395874023,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/48.fasta": {
+            "start-time": "Thu Apr 23 23:55:49 2020",
+            "stop-time": "Thu Apr 23 23:55:49 2020",
+            "duration": 0.014107942581176758,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/11.fasta": {
+            "start-time": "Thu Apr 23 23:55:49 2020",
+            "stop-time": "Thu Apr 23 23:55:49 2020",
+            "duration": 0.015514612197875977,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/54.fasta": {
+            "start-time": "Thu Apr 23 23:55:49 2020",
+            "stop-time": "Thu Apr 23 23:55:49 2020",
+            "duration": 0.010863065719604492,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/61.fasta": {
+            "start-time": "Thu Apr 23 23:55:50 2020",
+            "stop-time": "Thu Apr 23 23:55:50 2020",
+            "duration": 0.012642621994018555,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/44.fasta": {
+            "start-time": "Thu Apr 23 23:55:50 2020",
+            "stop-time": "Thu Apr 23 23:55:50 2020",
+            "duration": 0.014045000076293945,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/59.fasta": {
+            "start-time": "Thu Apr 23 23:55:50 2020",
+            "stop-time": "Thu Apr 23 23:56:29 2020",
+            "duration": 38.195446491241455,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/58.fasta": {
+            "start-time": "Thu Apr 23 23:55:50 2020",
+            "stop-time": "Thu Apr 23 23:56:23 2020",
+            "duration": 33.06111121177673,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/9.fasta": {
+            "start-time": "Thu Apr 23 23:55:50 2020",
+            "stop-time": "Thu Apr 23 23:56:19 2020",
+            "duration": 28.202752828598022,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/64.fasta": {
+            "start-time": "Thu Apr 23 23:55:51 2020",
+            "stop-time": "Thu Apr 23 23:56:30 2020",
+            "duration": 39.217665672302246,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/43.fasta": {
+            "start-time": "Thu Apr 23 23:55:52 2020",
+            "stop-time": "Thu Apr 23 23:56:23 2020",
+            "duration": 31.642393350601196,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/10.fasta": {
+            "start-time": "Thu Apr 23 23:55:55 2020",
+            "stop-time": "Thu Apr 23 23:56:27 2020",
+            "duration": 32.30596685409546,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/49.fasta": {
+            "start-time": "Thu Apr 23 23:55:55 2020",
+            "stop-time": "Thu Apr 23 23:56:34 2020",
+            "duration": 38.80343818664551,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/48.fasta": {
+            "start-time": "Thu Apr 23 23:55:56 2020",
+            "stop-time": "Thu Apr 23 23:56:31 2020",
+            "duration": 35.25730347633362,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/11.fasta": {
+            "start-time": "Thu Apr 23 23:55:57 2020",
+            "stop-time": "Thu Apr 23 23:56:35 2020",
+            "duration": 37.76849699020386,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/54.fasta": {
+            "start-time": "Thu Apr 23 23:55:57 2020",
+            "stop-time": "Thu Apr 23 23:56:34 2020",
+            "duration": 36.758955001831055,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/61.fasta": {
+            "start-time": "Thu Apr 23 23:55:58 2020",
+            "stop-time": "Thu Apr 23 23:56:39 2020",
+            "duration": 41.27135467529297,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/44.fasta": {
+            "start-time": "Thu Apr 23 23:55:59 2020",
+            "stop-time": "Thu Apr 23 23:56:34 2020",
+            "duration": 35.473976850509644,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/68.fasta": {
+            "start-time": "Thu Apr 23 23:56:00 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 0.010279417037963867,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/66.fasta": {
+            "start-time": "Thu Apr 23 23:56:00 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 0.011471033096313477,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/42.fasta": {
+            "start-time": "Thu Apr 23 23:56:00 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 0.013559818267822266,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/47.fasta": {
+            "start-time": "Thu Apr 23 23:56:00 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 0.012715578079223633,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/65.fasta": {
+            "start-time": "Thu Apr 23 23:56:00 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 0.012593269348144531,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/41.fasta": {
+            "start-time": "Thu Apr 23 23:56:00 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 0.011754512786865234,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/62.fasta": {
+            "start-time": "Thu Apr 23 23:56:00 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 0.012115240097045898,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/40.fasta": {
+            "start-time": "Thu Apr 23 23:56:00 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 0.01071310043334961,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/39.fasta": {
+            "start-time": "Thu Apr 23 23:56:00 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 0.01056528091430664,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/67.fasta": {
+            "start-time": "Thu Apr 23 23:56:00 2020",
+            "stop-time": "Thu Apr 23 23:56:00 2020",
+            "duration": 0.00940394401550293,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/57.fasta": {
+            "start-time": "Thu Apr 23 23:56:01 2020",
+            "stop-time": "Thu Apr 23 23:56:01 2020",
+            "duration": 0.01554250717163086,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/42.fasta": {
+            "start-time": "Thu Apr 23 23:56:01 2020",
+            "stop-time": "Thu Apr 23 23:56:32 2020",
+            "duration": 31.638123512268066,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/66.fasta": {
+            "start-time": "Thu Apr 23 23:56:01 2020",
+            "stop-time": "Thu Apr 23 23:56:36 2020",
+            "duration": 35.62019610404968,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/68.fasta": {
+            "start-time": "Thu Apr 23 23:56:01 2020",
+            "stop-time": "Thu Apr 23 23:56:38 2020",
+            "duration": 37.692232847213745,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/1.fasta": {
+            "start-time": "Thu Apr 23 23:56:01 2020",
+            "stop-time": "Thu Apr 23 23:56:01 2020",
+            "duration": 0.014316320419311523,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/0.fasta": {
+            "start-time": "Thu Apr 23 23:56:01 2020",
+            "stop-time": "Thu Apr 23 23:56:01 2020",
+            "duration": 0.010892391204833984,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_sequences/post/73.fasta": {
+            "start-time": "Thu Apr 23 23:56:01 2020",
+            "stop-time": "Thu Apr 23 23:56:01 2020",
+            "duration": 0.007871150970458984,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/47.fasta": {
+            "start-time": "Thu Apr 23 23:56:01 2020",
+            "stop-time": "Thu Apr 23 23:56:38 2020",
+            "duration": 36.99572014808655,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/65.fasta": {
+            "start-time": "Thu Apr 23 23:56:01 2020",
+            "stop-time": "Thu Apr 23 23:56:40 2020",
+            "duration": 39.15180516242981,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/41.fasta": {
+            "start-time": "Thu Apr 23 23:56:01 2020",
+            "stop-time": "Thu Apr 23 23:56:30 2020",
+            "duration": 28.18017578125,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/62.fasta": {
+            "start-time": "Thu Apr 23 23:56:04 2020",
+            "stop-time": "Thu Apr 23 23:56:40 2020",
+            "duration": 35.97277355194092,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/40.fasta": {
+            "start-time": "Thu Apr 23 23:56:05 2020",
+            "stop-time": "Thu Apr 23 23:56:33 2020",
+            "duration": 28.456819534301758,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/39.fasta": {
+            "start-time": "Thu Apr 23 23:56:06 2020",
+            "stop-time": "Thu Apr 23 23:56:34 2020",
+            "duration": 27.681586742401123,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/67.fasta": {
+            "start-time": "Thu Apr 23 23:56:07 2020",
+            "stop-time": "Thu Apr 23 23:56:37 2020",
+            "duration": 30.852316856384277,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/57.fasta": {
+            "start-time": "Thu Apr 23 23:56:08 2020",
+            "stop-time": "Thu Apr 23 23:56:40 2020",
+            "duration": 31.908801794052124,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/1.fasta": {
+            "start-time": "Thu Apr 23 23:56:08 2020",
+            "stop-time": "Thu Apr 23 23:56:41 2020",
+            "duration": 32.785670042037964,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/0.fasta": {
+            "start-time": "Thu Apr 23 23:56:19 2020",
+            "stop-time": "Thu Apr 23 23:56:43 2020",
+            "duration": 24.34904408454895,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/split_alignments/73.fasta": {
+            "start-time": "Thu Apr 23 23:56:23 2020",
+            "stop-time": "Thu Apr 23 23:56:31 2020",
+            "duration": 7.530765056610107,
+            "priority": 0,
+            "resources": {
+                "_cores": 2,
+                "_nodes": 1
+            }
+        },
+        "results/aligned.fasta": {
+            "start-time": "Thu Apr 23 23:56:43 2020",
+            "stop-time": "Thu Apr 23 23:56:43 2020",
+            "duration": 0.18727803230285645,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/masked.fasta": {
+            "start-time": "Thu Apr 23 23:56:43 2020",
+            "stop-time": "Thu Apr 23 23:56:58 2020",
+            "duration": 15.06125783920288,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_focus_south-america.fasta": {
+            "start-time": "Thu Apr 23 23:56:58 2020",
+            "stop-time": "Thu Apr 23 23:57:03 2020",
+            "duration": 5.046970844268799,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_focus_north-america.fasta": {
+            "start-time": "Thu Apr 23 23:56:58 2020",
+            "stop-time": "Thu Apr 23 23:57:04 2020",
+            "duration": 5.6430699825286865,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_focus_global.fasta": {
+            "start-time": "Thu Apr 23 23:56:58 2020",
+            "stop-time": "Thu Apr 23 23:57:04 2020",
+            "duration": 6.133167505264282,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_focus_europe.fasta": {
+            "start-time": "Thu Apr 23 23:56:58 2020",
+            "stop-time": "Thu Apr 23 23:57:04 2020",
+            "duration": 6.040260553359985,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_focus_africa.fasta": {
+            "start-time": "Thu Apr 23 23:56:58 2020",
+            "stop-time": "Thu Apr 23 23:57:03 2020",
+            "duration": 5.052807569503784,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_focus_oceania.fasta": {
+            "start-time": "Thu Apr 23 23:56:58 2020",
+            "stop-time": "Thu Apr 23 23:57:04 2020",
+            "duration": 5.266984939575195,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_focus_asia.fasta": {
+            "start-time": "Thu Apr 23 23:56:58 2020",
+            "stop-time": "Thu Apr 23 23:57:04 2020",
+            "duration": 5.282424449920654,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsampling_priorities_south-america.tsv": {
+            "start-time": "Thu Apr 23 23:57:03 2020",
+            "stop-time": "Thu Apr 23 23:57:54 2020",
+            "duration": 50.28540778160095,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "mem_mb": 4000
+            }
+        },
+        "results/subsampling_priorities_africa.tsv": {
+            "start-time": "Thu Apr 23 23:57:03 2020",
+            "stop-time": "Thu Apr 23 23:57:54 2020",
+            "duration": 50.464983224868774,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "mem_mb": 4000
+            }
+        },
+        "results/subsampling_priorities_oceania.tsv": {
+            "start-time": "Thu Apr 23 23:57:04 2020",
+            "stop-time": "Thu Apr 23 23:58:13 2020",
+            "duration": 69.49337410926819,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "mem_mb": 4000
+            }
+        },
+        "results/subsampling_priorities_asia.tsv": {
+            "start-time": "Thu Apr 23 23:57:04 2020",
+            "stop-time": "Thu Apr 23 23:58:18 2020",
+            "duration": 74.40137529373169,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "mem_mb": 4000
+            }
+        },
+        "results/subsampling_priorities_north-america.tsv": {
+            "start-time": "Thu Apr 23 23:57:04 2020",
+            "stop-time": "Thu Apr 23 23:58:55 2020",
+            "duration": 111.51593255996704,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "mem_mb": 4000
+            }
+        },
+        "results/subsampling_priorities_europe.tsv": {
+            "start-time": "Thu Apr 23 23:57:04 2020",
+            "stop-time": "Thu Apr 23 23:59:26 2020",
+            "duration": 141.53178095817566,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "mem_mb": 4000
+            }
+        },
+        "results/subsampling_priorities_global.tsv": {
+            "start-time": "Thu Apr 23 23:57:04 2020",
+            "stop-time": "Thu Apr 23 23:57:04 2020",
+            "duration": 0.007897615432739258,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1,
+                "mem_mb": 4000
+            }
+        },
+        "results/subsample_context_global.fasta": {
+            "start-time": "Thu Apr 23 23:57:04 2020",
+            "stop-time": "Thu Apr 23 23:57:04 2020",
+            "duration": 0.007599830627441406,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsampled_alignment_global.fasta": {
+            "start-time": "Thu Apr 23 23:57:04 2020",
+            "stop-time": "Thu Apr 23 23:57:07 2020",
+            "duration": 2.1708152294158936,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_raw_global.nwk": {
+            "start-time": "Thu Apr 23 23:57:07 2020",
+            "stop-time": "Fri Apr 24 00:36:05 2020",
+            "duration": 2338.7959570884705,
+            "priority": 0,
+            "resources": {
+                "_cores": 4,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_context_south-america.fasta": {
+            "start-time": "Thu Apr 23 23:57:54 2020",
+            "stop-time": "Thu Apr 23 23:57:59 2020",
+            "duration": 5.629117727279663,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_context_africa.fasta": {
+            "start-time": "Thu Apr 23 23:57:54 2020",
+            "stop-time": "Thu Apr 23 23:57:59 2020",
+            "duration": 5.618172645568848,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsampled_alignment_south-america.fasta": {
+            "start-time": "Thu Apr 23 23:57:59 2020",
+            "stop-time": "Thu Apr 23 23:58:01 2020",
+            "duration": 1.4153192043304443,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsampled_alignment_africa.fasta": {
+            "start-time": "Thu Apr 23 23:57:59 2020",
+            "stop-time": "Thu Apr 23 23:58:01 2020",
+            "duration": 1.4062914848327637,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_raw_south-america.nwk": {
+            "start-time": "Thu Apr 23 23:58:01 2020",
+            "stop-time": "Thu Apr 23 23:59:40 2020",
+            "duration": 99.24382543563843,
+            "priority": 0,
+            "resources": {
+                "_cores": 4,
+                "_nodes": 1
+            }
+        },
+        "results/tree_raw_africa.nwk": {
+            "start-time": "Thu Apr 23 23:58:01 2020",
+            "stop-time": "Thu Apr 23 23:59:55 2020",
+            "duration": 114.23662161827087,
+            "priority": 0,
+            "resources": {
+                "_cores": 4,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_context_oceania.fasta": {
+            "start-time": "Thu Apr 23 23:58:13 2020",
+            "stop-time": "Thu Apr 23 23:58:19 2020",
+            "duration": 5.52545690536499,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_context_asia.fasta": {
+            "start-time": "Thu Apr 23 23:58:18 2020",
+            "stop-time": "Thu Apr 23 23:58:24 2020",
+            "duration": 5.657585382461548,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsampled_alignment_oceania.fasta": {
+            "start-time": "Thu Apr 23 23:58:19 2020",
+            "stop-time": "Thu Apr 23 23:58:20 2020",
+            "duration": 1.7149417400360107,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_raw_oceania.nwk": {
+            "start-time": "Thu Apr 23 23:58:20 2020",
+            "stop-time": "Fri Apr 24 00:03:00 2020",
+            "duration": 279.3374698162079,
+            "priority": 0,
+            "resources": {
+                "_cores": 4,
+                "_nodes": 1
+            }
+        },
+        "results/subsampled_alignment_asia.fasta": {
+            "start-time": "Thu Apr 23 23:58:24 2020",
+            "stop-time": "Thu Apr 23 23:58:25 2020",
+            "duration": 1.5600690841674805,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_raw_asia.nwk": {
+            "start-time": "Thu Apr 23 23:58:25 2020",
+            "stop-time": "Fri Apr 24 00:01:47 2020",
+            "duration": 202.27601504325867,
+            "priority": 0,
+            "resources": {
+                "_cores": 4,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_context_north-america.fasta": {
+            "start-time": "Thu Apr 23 23:58:55 2020",
+            "stop-time": "Thu Apr 23 23:59:01 2020",
+            "duration": 5.540597438812256,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsampled_alignment_north-america.fasta": {
+            "start-time": "Thu Apr 23 23:59:01 2020",
+            "stop-time": "Thu Apr 23 23:59:03 2020",
+            "duration": 2.1427159309387207,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_raw_north-america.nwk": {
+            "start-time": "Thu Apr 23 23:59:03 2020",
+            "stop-time": "Fri Apr 24 00:23:32 2020",
+            "duration": 1469.2887365818024,
+            "priority": 0,
+            "resources": {
+                "_cores": 4,
+                "_nodes": 1
+            }
+        },
+        "results/subsample_context_europe.fasta": {
+            "start-time": "Thu Apr 23 23:59:26 2020",
+            "stop-time": "Thu Apr 23 23:59:31 2020",
+            "duration": 5.3366804122924805,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/subsampled_alignment_europe.fasta": {
+            "start-time": "Thu Apr 23 23:59:31 2020",
+            "stop-time": "Thu Apr 23 23:59:34 2020",
+            "duration": 2.521646738052368,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_raw_europe.nwk": {
+            "start-time": "Thu Apr 23 23:59:34 2020",
+            "stop-time": "Fri Apr 24 00:36:32 2020",
+            "duration": 2218.062651872635,
+            "priority": 0,
+            "resources": {
+                "_cores": 4,
+                "_nodes": 1
+            }
+        },
+        "results/tree_south-america.nwk": {
+            "start-time": "Thu Apr 23 23:59:40 2020",
+            "stop-time": "Fri Apr 24 00:29:13 2020",
+            "duration": 1773.5052607059479,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/branch_lengths_south-america.json": {
+            "start-time": "Thu Apr 23 23:59:40 2020",
+            "stop-time": "Fri Apr 24 00:29:13 2020",
+            "duration": 1773.5052607059479,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_africa.nwk": {
+            "start-time": "Thu Apr 23 23:59:55 2020",
+            "stop-time": "Fri Apr 24 00:30:11 2020",
+            "duration": 1815.7092843055725,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/branch_lengths_africa.json": {
+            "start-time": "Thu Apr 23 23:59:55 2020",
+            "stop-time": "Fri Apr 24 00:30:11 2020",
+            "duration": 1815.7092843055725,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_asia.nwk": {
+            "start-time": "Fri Apr 24 00:01:47 2020",
+            "stop-time": "Fri Apr 24 00:38:21 2020",
+            "duration": 2193.49742436409,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/branch_lengths_asia.json": {
+            "start-time": "Fri Apr 24 00:01:47 2020",
+            "stop-time": "Fri Apr 24 00:38:21 2020",
+            "duration": 2193.49742436409,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_oceania.nwk": {
+            "start-time": "Fri Apr 24 00:03:00 2020",
+            "stop-time": "Fri Apr 24 00:40:43 2020",
+            "duration": 2263.4182999134064,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/branch_lengths_oceania.json": {
+            "start-time": "Fri Apr 24 00:03:00 2020",
+            "stop-time": "Fri Apr 24 00:40:43 2020",
+            "duration": 2263.4182999134064,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_north-america.nwk": {
+            "start-time": "Fri Apr 24 00:23:32 2020",
+            "stop-time": "Fri Apr 24 01:31:14 2020",
+            "duration": 4061.2286643981934,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/branch_lengths_north-america.json": {
+            "start-time": "Fri Apr 24 00:23:32 2020",
+            "stop-time": "Fri Apr 24 01:31:14 2020",
+            "duration": 4061.2286643981934,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/traits_south-america.json": {
+            "start-time": "Fri Apr 24 00:29:13 2020",
+            "stop-time": "Fri Apr 24 00:29:31 2020",
+            "duration": 17.129257917404175,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_south-america_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 00:29:13 2020",
+            "stop-time": "Fri Apr 24 00:29:16 2020",
+            "duration": 2.9725706577301025,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/nt_muts_south-america.json": {
+            "start-time": "Fri Apr 24 00:29:13 2020",
+            "stop-time": "Fri Apr 24 00:35:08 2020",
+            "duration": 354.6869351863861,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/nt_muts_africa.json": {
+            "start-time": "Fri Apr 24 00:30:11 2020",
+            "stop-time": "Fri Apr 24 00:36:12 2020",
+            "duration": 361.27208614349365,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_africa_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 00:30:11 2020",
+            "stop-time": "Fri Apr 24 00:30:14 2020",
+            "duration": 3.103393793106079,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/traits_africa.json": {
+            "start-time": "Fri Apr 24 00:30:11 2020",
+            "stop-time": "Fri Apr 24 00:30:28 2020",
+            "duration": 17.30453133583069,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/aa_muts_south-america.json": {
+            "start-time": "Fri Apr 24 00:35:08 2020",
+            "stop-time": "Fri Apr 24 00:35:27 2020",
+            "duration": 19.160056352615356,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/clades_south-america.json": {
+            "start-time": "Fri Apr 24 00:35:27 2020",
+            "stop-time": "Fri Apr 24 00:35:29 2020",
+            "duration": 1.5978662967681885,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_south-america.json": {
+            "start-time": "Fri Apr 24 00:35:29 2020",
+            "stop-time": "Fri Apr 24 00:35:34 2020",
+            "duration": 4.756397247314453,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_south-america.json": {
+            "start-time": "Fri Apr 24 00:35:29 2020",
+            "stop-time": "Fri Apr 24 00:35:34 2020",
+            "duration": 4.758111000061035,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_south-america.json": {
+            "start-time": "Fri Apr 24 00:35:29 2020",
+            "stop-time": "Fri Apr 24 00:35:34 2020",
+            "duration": 4.9090416431427,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_and_travel_branches_south-america.json": {
+            "start-time": "Fri Apr 24 00:35:34 2020",
+            "stop-time": "Fri Apr 24 00:35:34 2020",
+            "duration": 0.7978651523590088,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_and_travel_branches_south-america.json": {
+            "start-time": "Fri Apr 24 00:35:34 2020",
+            "stop-time": "Fri Apr 24 00:35:34 2020",
+            "duration": 0.7982797622680664,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_and_travel_branches_south-america.json": {
+            "start-time": "Fri Apr 24 00:35:34 2020",
+            "stop-time": "Fri Apr 24 00:35:35 2020",
+            "duration": 0.794105052947998,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_south-america_gisaid.json": {
+            "start-time": "Fri Apr 24 00:35:34 2020",
+            "stop-time": "Fri Apr 24 00:35:35 2020",
+            "duration": 0.8849503993988037,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_south-america.json": {
+            "start-time": "Fri Apr 24 00:35:34 2020",
+            "stop-time": "Fri Apr 24 00:35:35 2020",
+            "duration": 0.883958101272583,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_south-america_zh.json": {
+            "start-time": "Fri Apr 24 00:35:35 2020",
+            "stop-time": "Fri Apr 24 00:35:35 2020",
+            "duration": 0.818681001663208,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_south-america_2020-04-23.json": {
+            "start-time": "Fri Apr 24 00:35:35 2020",
+            "stop-time": "Fri Apr 24 00:35:35 2020",
+            "duration": 0.012955188751220703,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_south-america_2020-04-23_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 00:35:35 2020",
+            "stop-time": "Fri Apr 24 00:35:35 2020",
+            "duration": 0.012955188751220703,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_global.nwk": {
+            "start-time": "Fri Apr 24 00:36:05 2020",
+            "stop-time": "Fri Apr 24 01:46:49 2020",
+            "duration": 4243.533322572708,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/branch_lengths_global.json": {
+            "start-time": "Fri Apr 24 00:36:05 2020",
+            "stop-time": "Fri Apr 24 01:46:49 2020",
+            "duration": 4243.533322572708,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/aa_muts_africa.json": {
+            "start-time": "Fri Apr 24 00:36:12 2020",
+            "stop-time": "Fri Apr 24 00:36:31 2020",
+            "duration": 19.40652561187744,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/clades_africa.json": {
+            "start-time": "Fri Apr 24 00:36:31 2020",
+            "stop-time": "Fri Apr 24 00:36:33 2020",
+            "duration": 1.4286484718322754,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/tree_europe.nwk": {
+            "start-time": "Fri Apr 24 00:36:32 2020",
+            "stop-time": "Fri Apr 24 01:57:28 2020",
+            "duration": 4855.756715774536,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/branch_lengths_europe.json": {
+            "start-time": "Fri Apr 24 00:36:32 2020",
+            "stop-time": "Fri Apr 24 01:57:28 2020",
+            "duration": 4855.756715774536,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_africa.json": {
+            "start-time": "Fri Apr 24 00:36:33 2020",
+            "stop-time": "Fri Apr 24 00:36:38 2020",
+            "duration": 4.6961681842803955,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_africa.json": {
+            "start-time": "Fri Apr 24 00:36:33 2020",
+            "stop-time": "Fri Apr 24 00:36:37 2020",
+            "duration": 4.579202651977539,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_africa.json": {
+            "start-time": "Fri Apr 24 00:36:33 2020",
+            "stop-time": "Fri Apr 24 00:36:37 2020",
+            "duration": 4.555347442626953,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_and_travel_branches_africa.json": {
+            "start-time": "Fri Apr 24 00:36:37 2020",
+            "stop-time": "Fri Apr 24 00:36:38 2020",
+            "duration": 0.7819907665252686,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_and_travel_branches_africa.json": {
+            "start-time": "Fri Apr 24 00:36:37 2020",
+            "stop-time": "Fri Apr 24 00:36:38 2020",
+            "duration": 0.779071569442749,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_and_travel_branches_africa.json": {
+            "start-time": "Fri Apr 24 00:36:38 2020",
+            "stop-time": "Fri Apr 24 00:36:38 2020",
+            "duration": 0.7812767028808594,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_africa_gisaid.json": {
+            "start-time": "Fri Apr 24 00:36:38 2020",
+            "stop-time": "Fri Apr 24 00:36:39 2020",
+            "duration": 0.8119196891784668,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_africa.json": {
+            "start-time": "Fri Apr 24 00:36:38 2020",
+            "stop-time": "Fri Apr 24 00:36:39 2020",
+            "duration": 0.807513952255249,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_africa_zh.json": {
+            "start-time": "Fri Apr 24 00:36:38 2020",
+            "stop-time": "Fri Apr 24 00:36:39 2020",
+            "duration": 0.8206455707550049,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_africa_2020-04-23.json": {
+            "start-time": "Fri Apr 24 00:36:39 2020",
+            "stop-time": "Fri Apr 24 00:36:39 2020",
+            "duration": 0.012258768081665039,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_africa_2020-04-23_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 00:36:39 2020",
+            "stop-time": "Fri Apr 24 00:36:39 2020",
+            "duration": 0.012258768081665039,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/nt_muts_asia.json": {
+            "start-time": "Fri Apr 24 00:38:21 2020",
+            "stop-time": "Fri Apr 24 00:44:20 2020",
+            "duration": 358.75388503074646,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/traits_asia.json": {
+            "start-time": "Fri Apr 24 00:38:21 2020",
+            "stop-time": "Fri Apr 24 00:38:44 2020",
+            "duration": 22.700043201446533,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_asia_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 00:38:21 2020",
+            "stop-time": "Fri Apr 24 00:38:24 2020",
+            "duration": 3.075547218322754,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/nt_muts_oceania.json": {
+            "start-time": "Fri Apr 24 00:40:43 2020",
+            "stop-time": "Fri Apr 24 00:46:50 2020",
+            "duration": 366.89880561828613,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/traits_oceania.json": {
+            "start-time": "Fri Apr 24 00:40:43 2020",
+            "stop-time": "Fri Apr 24 00:41:04 2020",
+            "duration": 20.683730125427246,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_oceania_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 00:40:43 2020",
+            "stop-time": "Fri Apr 24 00:40:46 2020",
+            "duration": 3.1734278202056885,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/aa_muts_asia.json": {
+            "start-time": "Fri Apr 24 00:44:20 2020",
+            "stop-time": "Fri Apr 24 00:44:43 2020",
+            "duration": 23.657013177871704,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/clades_asia.json": {
+            "start-time": "Fri Apr 24 00:44:43 2020",
+            "stop-time": "Fri Apr 24 00:44:45 2020",
+            "duration": 1.60823392868042,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_asia.json": {
+            "start-time": "Fri Apr 24 00:44:45 2020",
+            "stop-time": "Fri Apr 24 00:44:50 2020",
+            "duration": 5.160069465637207,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_asia.json": {
+            "start-time": "Fri Apr 24 00:44:45 2020",
+            "stop-time": "Fri Apr 24 00:44:50 2020",
+            "duration": 5.114088535308838,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_asia.json": {
+            "start-time": "Fri Apr 24 00:44:45 2020",
+            "stop-time": "Fri Apr 24 00:44:50 2020",
+            "duration": 5.171054124832153,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_and_travel_branches_asia.json": {
+            "start-time": "Fri Apr 24 00:44:50 2020",
+            "stop-time": "Fri Apr 24 00:44:51 2020",
+            "duration": 0.9376084804534912,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_and_travel_branches_asia.json": {
+            "start-time": "Fri Apr 24 00:44:50 2020",
+            "stop-time": "Fri Apr 24 00:44:51 2020",
+            "duration": 0.9260642528533936,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_and_travel_branches_asia.json": {
+            "start-time": "Fri Apr 24 00:44:50 2020",
+            "stop-time": "Fri Apr 24 00:44:51 2020",
+            "duration": 0.928170919418335,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_asia_gisaid.json": {
+            "start-time": "Fri Apr 24 00:44:51 2020",
+            "stop-time": "Fri Apr 24 00:44:52 2020",
+            "duration": 0.9684951305389404,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_asia_zh.json": {
+            "start-time": "Fri Apr 24 00:44:51 2020",
+            "stop-time": "Fri Apr 24 00:44:52 2020",
+            "duration": 0.9690184593200684,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_asia.json": {
+            "start-time": "Fri Apr 24 00:44:51 2020",
+            "stop-time": "Fri Apr 24 00:44:52 2020",
+            "duration": 0.9713683128356934,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_asia_2020-04-23.json": {
+            "start-time": "Fri Apr 24 00:44:52 2020",
+            "stop-time": "Fri Apr 24 00:44:52 2020",
+            "duration": 0.013103008270263672,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_asia_2020-04-23_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 00:44:52 2020",
+            "stop-time": "Fri Apr 24 00:44:52 2020",
+            "duration": 0.013103008270263672,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/aa_muts_oceania.json": {
+            "start-time": "Fri Apr 24 00:46:50 2020",
+            "stop-time": "Fri Apr 24 00:47:16 2020",
+            "duration": 25.877436876296997,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/clades_oceania.json": {
+            "start-time": "Fri Apr 24 00:47:16 2020",
+            "stop-time": "Fri Apr 24 00:47:17 2020",
+            "duration": 1.6401348114013672,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_oceania.json": {
+            "start-time": "Fri Apr 24 00:47:17 2020",
+            "stop-time": "Fri Apr 24 00:47:23 2020",
+            "duration": 5.514848232269287,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_oceania.json": {
+            "start-time": "Fri Apr 24 00:47:17 2020",
+            "stop-time": "Fri Apr 24 00:47:23 2020",
+            "duration": 5.511669158935547,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_oceania.json": {
+            "start-time": "Fri Apr 24 00:47:17 2020",
+            "stop-time": "Fri Apr 24 00:47:23 2020",
+            "duration": 5.505285024642944,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_and_travel_branches_oceania.json": {
+            "start-time": "Fri Apr 24 00:47:23 2020",
+            "stop-time": "Fri Apr 24 00:47:24 2020",
+            "duration": 1.1277413368225098,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_and_travel_branches_oceania.json": {
+            "start-time": "Fri Apr 24 00:47:23 2020",
+            "stop-time": "Fri Apr 24 00:47:24 2020",
+            "duration": 1.1257054805755615,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_and_travel_branches_oceania.json": {
+            "start-time": "Fri Apr 24 00:47:23 2020",
+            "stop-time": "Fri Apr 24 00:47:24 2020",
+            "duration": 1.1273870468139648,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_oceania_gisaid.json": {
+            "start-time": "Fri Apr 24 00:47:24 2020",
+            "stop-time": "Fri Apr 24 00:47:25 2020",
+            "duration": 1.178133249282837,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_oceania.json": {
+            "start-time": "Fri Apr 24 00:47:24 2020",
+            "stop-time": "Fri Apr 24 00:47:25 2020",
+            "duration": 1.1889309883117676,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_oceania_zh.json": {
+            "start-time": "Fri Apr 24 00:47:24 2020",
+            "stop-time": "Fri Apr 24 00:47:25 2020",
+            "duration": 1.1783733367919922,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_oceania_2020-04-23.json": {
+            "start-time": "Fri Apr 24 00:47:25 2020",
+            "stop-time": "Fri Apr 24 00:47:25 2020",
+            "duration": 0.01632523536682129,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_oceania_2020-04-23_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 00:47:25 2020",
+            "stop-time": "Fri Apr 24 00:47:25 2020",
+            "duration": 0.01632523536682129,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_north-america_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 01:31:14 2020",
+            "stop-time": "Fri Apr 24 01:31:17 2020",
+            "duration": 3.548144578933716,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/traits_north-america.json": {
+            "start-time": "Fri Apr 24 01:31:14 2020",
+            "stop-time": "Fri Apr 24 01:31:46 2020",
+            "duration": 31.997036457061768,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/nt_muts_north-america.json": {
+            "start-time": "Fri Apr 24 01:31:14 2020",
+            "stop-time": "Fri Apr 24 01:38:06 2020",
+            "duration": 412.2900321483612,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/aa_muts_north-america.json": {
+            "start-time": "Fri Apr 24 01:38:06 2020",
+            "stop-time": "Fri Apr 24 01:38:48 2020",
+            "duration": 41.70240068435669,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/clades_north-america.json": {
+            "start-time": "Fri Apr 24 01:38:48 2020",
+            "stop-time": "Fri Apr 24 01:38:50 2020",
+            "duration": 2.1959099769592285,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_north-america.json": {
+            "start-time": "Fri Apr 24 01:38:50 2020",
+            "stop-time": "Fri Apr 24 01:38:57 2020",
+            "duration": 7.1153724193573,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_north-america.json": {
+            "start-time": "Fri Apr 24 01:38:50 2020",
+            "stop-time": "Fri Apr 24 01:38:57 2020",
+            "duration": 7.022172451019287,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_north-america.json": {
+            "start-time": "Fri Apr 24 01:38:50 2020",
+            "stop-time": "Fri Apr 24 01:38:57 2020",
+            "duration": 7.11926007270813,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_and_travel_branches_north-america.json": {
+            "start-time": "Fri Apr 24 01:38:57 2020",
+            "stop-time": "Fri Apr 24 01:38:58 2020",
+            "duration": 1.5485146045684814,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_and_travel_branches_north-america.json": {
+            "start-time": "Fri Apr 24 01:38:57 2020",
+            "stop-time": "Fri Apr 24 01:38:58 2020",
+            "duration": 1.554516077041626,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_and_travel_branches_north-america.json": {
+            "start-time": "Fri Apr 24 01:38:57 2020",
+            "stop-time": "Fri Apr 24 01:38:58 2020",
+            "duration": 1.551640510559082,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_north-america.json": {
+            "start-time": "Fri Apr 24 01:38:58 2020",
+            "stop-time": "Fri Apr 24 01:39:00 2020",
+            "duration": 1.6464431285858154,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_north-america_gisaid.json": {
+            "start-time": "Fri Apr 24 01:38:58 2020",
+            "stop-time": "Fri Apr 24 01:39:00 2020",
+            "duration": 1.6543049812316895,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_north-america_zh.json": {
+            "start-time": "Fri Apr 24 01:38:58 2020",
+            "stop-time": "Fri Apr 24 01:39:00 2020",
+            "duration": 1.6581518650054932,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_north-america_2020-04-23.json": {
+            "start-time": "Fri Apr 24 01:39:00 2020",
+            "stop-time": "Fri Apr 24 01:39:00 2020",
+            "duration": 0.01758098602294922,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_north-america_2020-04-23_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 01:39:00 2020",
+            "stop-time": "Fri Apr 24 01:39:00 2020",
+            "duration": 0.01758098602294922,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/nt_muts_global.json": {
+            "start-time": "Fri Apr 24 01:46:49 2020",
+            "stop-time": "Fri Apr 24 01:53:59 2020",
+            "duration": 429.9755070209503,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/traits_global.json": {
+            "start-time": "Fri Apr 24 01:46:49 2020",
+            "stop-time": "Fri Apr 24 01:48:07 2020",
+            "duration": 78.5321900844574,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_global_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 01:46:49 2020",
+            "stop-time": "Fri Apr 24 01:46:53 2020",
+            "duration": 3.6459953784942627,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/aa_muts_global.json": {
+            "start-time": "Fri Apr 24 01:53:59 2020",
+            "stop-time": "Fri Apr 24 01:54:45 2020",
+            "duration": 46.321606159210205,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/clades_global.json": {
+            "start-time": "Fri Apr 24 01:54:45 2020",
+            "stop-time": "Fri Apr 24 01:54:48 2020",
+            "duration": 2.327425241470337,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_global.json": {
+            "start-time": "Fri Apr 24 01:54:48 2020",
+            "stop-time": "Fri Apr 24 01:54:55 2020",
+            "duration": 7.910824775695801,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_global.json": {
+            "start-time": "Fri Apr 24 01:54:48 2020",
+            "stop-time": "Fri Apr 24 01:54:56 2020",
+            "duration": 8.034636974334717,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_global.json": {
+            "start-time": "Fri Apr 24 01:54:48 2020",
+            "stop-time": "Fri Apr 24 01:54:55 2020",
+            "duration": 7.926173686981201,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_and_travel_branches_global.json": {
+            "start-time": "Fri Apr 24 01:54:55 2020",
+            "stop-time": "Fri Apr 24 01:54:57 2020",
+            "duration": 1.9932386875152588,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_and_travel_branches_global.json": {
+            "start-time": "Fri Apr 24 01:54:55 2020",
+            "stop-time": "Fri Apr 24 01:54:57 2020",
+            "duration": 2.0196948051452637,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_and_travel_branches_global.json": {
+            "start-time": "Fri Apr 24 01:54:56 2020",
+            "stop-time": "Fri Apr 24 01:54:58 2020",
+            "duration": 2.03151273727417,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_global_zh.json": {
+            "start-time": "Fri Apr 24 01:54:57 2020",
+            "stop-time": "Fri Apr 24 01:55:00 2020",
+            "duration": 2.109020471572876,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_global.json": {
+            "start-time": "Fri Apr 24 01:54:57 2020",
+            "stop-time": "Fri Apr 24 01:55:00 2020",
+            "duration": 2.113859176635742,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_global_gisaid.json": {
+            "start-time": "Fri Apr 24 01:54:58 2020",
+            "stop-time": "Fri Apr 24 01:55:00 2020",
+            "duration": 2.103970766067505,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_global_2020-04-23.json": {
+            "start-time": "Fri Apr 24 01:55:00 2020",
+            "stop-time": "Fri Apr 24 01:55:00 2020",
+            "duration": 0.0222320556640625,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_global_2020-04-23_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 01:55:00 2020",
+            "stop-time": "Fri Apr 24 01:55:00 2020",
+            "duration": 0.0222320556640625,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/nt_muts_europe.json": {
+            "start-time": "Fri Apr 24 01:57:28 2020",
+            "stop-time": "Fri Apr 24 02:05:03 2020",
+            "duration": 455.41040301322937,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_europe_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 01:57:28 2020",
+            "stop-time": "Fri Apr 24 01:57:31 2020",
+            "duration": 3.808177947998047,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/traits_europe.json": {
+            "start-time": "Fri Apr 24 01:57:28 2020",
+            "stop-time": "Fri Apr 24 01:58:25 2020",
+            "duration": 57.10174632072449,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/aa_muts_europe.json": {
+            "start-time": "Fri Apr 24 02:05:03 2020",
+            "stop-time": "Fri Apr 24 02:05:58 2020",
+            "duration": 55.291424036026,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/clades_europe.json": {
+            "start-time": "Fri Apr 24 02:05:58 2020",
+            "stop-time": "Fri Apr 24 02:06:01 2020",
+            "duration": 2.6459338665008545,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_europe.json": {
+            "start-time": "Fri Apr 24 02:06:01 2020",
+            "stop-time": "Fri Apr 24 02:06:10 2020",
+            "duration": 9.434002161026001,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_europe.json": {
+            "start-time": "Fri Apr 24 02:06:01 2020",
+            "stop-time": "Fri Apr 24 02:06:10 2020",
+            "duration": 9.334604024887085,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_europe.json": {
+            "start-time": "Fri Apr 24 02:06:01 2020",
+            "stop-time": "Fri Apr 24 02:06:10 2020",
+            "duration": 9.361529350280762,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_with_accessions_and_travel_branches_europe.json": {
+            "start-time": "Fri Apr 24 02:06:10 2020",
+            "stop-time": "Fri Apr 24 02:06:13 2020",
+            "duration": 2.7736308574676514,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_gisaid_with_accessions_and_travel_branches_europe.json": {
+            "start-time": "Fri Apr 24 02:06:10 2020",
+            "stop-time": "Fri Apr 24 02:06:13 2020",
+            "duration": 2.7916903495788574,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "results/ncov_zh_with_accessions_and_travel_branches_europe.json": {
+            "start-time": "Fri Apr 24 02:06:10 2020",
+            "stop-time": "Fri Apr 24 02:06:13 2020",
+            "duration": 2.792424201965332,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_europe.json": {
+            "start-time": "Fri Apr 24 02:06:13 2020",
+            "stop-time": "Fri Apr 24 02:06:16 2020",
+            "duration": 3.025627851486206,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_europe_gisaid.json": {
+            "start-time": "Fri Apr 24 02:06:13 2020",
+            "stop-time": "Fri Apr 24 02:06:16 2020",
+            "duration": 3.0012786388397217,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_europe_zh.json": {
+            "start-time": "Fri Apr 24 02:06:13 2020",
+            "stop-time": "Fri Apr 24 02:06:16 2020",
+            "duration": 3.0295591354370117,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_europe_2020-04-23.json": {
+            "start-time": "Fri Apr 24 02:06:16 2020",
+            "stop-time": "Fri Apr 24 02:06:16 2020",
+            "duration": 0.026800155639648438,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        },
+        "auspice/ncov_europe_2020-04-23_tip-frequencies.json": {
+            "start-time": "Fri Apr 24 02:06:16 2020",
+            "stop-time": "Fri Apr 24 02:06:16 2020",
+            "duration": 0.026800155639648438,
+            "priority": 0,
+            "resources": {
+                "_cores": 1,
+                "_nodes": 1
+            }
+        }
+    }
+}
