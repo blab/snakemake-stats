@@ -35,7 +35,11 @@
     },
     "size": {
       "field": "resources._cores",
-      "type": "ordinal"
+      "type": "ordinal",
+      "legend": {
+        "title": "CPUs/cores/threads",
+        "orient": "top-right"
+      }
     }
   },
   "config": {
